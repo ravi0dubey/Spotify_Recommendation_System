@@ -1,0 +1,2 @@
+DATABASE_NAME = "Spotiy_DB"
+COLLECTION_NAME = "spotify1"
