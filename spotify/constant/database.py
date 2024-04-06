@@ -1,2 +1,2 @@
-DATABASE_NAME = "Spotiy_DB"
+DATABASE_NAME = "Spotify_DB"
 COLLECTION_NAME = "spotify1"
