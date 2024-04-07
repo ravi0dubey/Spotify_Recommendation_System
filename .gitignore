@@ -1,2 +1,3 @@
 dataset/Spotify-2000.csv
 env_variable.py
+*.egg-info/
