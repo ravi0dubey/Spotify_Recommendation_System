@@ -2,14 +2,13 @@ import sys
 import numpy as np
 import pandas as pd
 from typing import Optional
-from Spotify.configuration.mongo_db_connection import MongoDBClient
-from Spotify.constant.database import DATABASE_NAME
-from Spotify.exception import SpotifyException
+from spotify.configuration.mongo_db_connection import MongoDBClient
+from spotify.constant.database import DATABASE_NAME, COLLECTION_NAME
+from spotify.exception import SpotifyException
 
 
 class SpotifyData:
     # This class help to export entire mongo db record as pandas dataframe
-    
     def __init__(self):
         try:
             self.mongo_client = MongoDBClient(database_name=DATABASE_NAME)

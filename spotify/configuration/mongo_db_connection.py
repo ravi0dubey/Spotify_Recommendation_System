@@ -7,7 +7,7 @@ from spotify.constant.env_variable import MONGODB_URL_KEY
 import certifi
 ca = certifi.where()
 import os
-#mongodb+srv://ravi0dubey:<Logi1234>@cluster0.0zxmnkl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
 
 class MongoDBClient:
     client = None
